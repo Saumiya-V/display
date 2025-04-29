@@ -3,12 +3,15 @@
   padding:0;
   box-sizing: border-box;
 }
+
 body{
   background: grey;
   display: flex;
   flex-direction: column;
   gap: 5px;
 }
+
+/* Section 1 styles */
 .section1{
   background: pink;
   display: flex;
@@ -25,6 +28,7 @@ body{
 .batch3{
  margin-top: 20vh;
 }
+/*Number div*/
 .batch1 div,.batch2 div,.batch3 div,.div1 div,.div2 div,.div3 div{
   width:40px;
   height: 40px;
@@ -34,6 +38,8 @@ body{
   justify-content: center;
   align-items: center;
 }
+
+/* Section 2 */
 .section2{
   background: pink;
   display: flex;
@@ -58,10 +64,14 @@ body{
   align-items: center;
   padding:0 30vh;
 }
+
+/*Section 3  */
 .section3{
   display: flex;
   gap:5px
 }
+
+/*Left box */
 .left-box{
   background: purple;
   color:white;
@@ -70,6 +80,8 @@ body{
   justify-content: center;
   align-items: center;
 }
+
+/* Right box  */
 .right-box{
   background: purple;
   width: 100%;
@@ -84,6 +96,7 @@ body{
   justify-content: flex-start;
   align-items: center;
 }
+/* Grid layout  */
 .rightBottom{
   display: grid;
   grid-template-columns: repeat(5,1fr);
